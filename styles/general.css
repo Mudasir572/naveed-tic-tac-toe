@@ -1,0 +1,79 @@
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background-color: rgb(227 239 246);
+}
+header{
+    background-color: rgb(131, 26, 230);
+    padding: 2rem;
+}
+#header-content{
+    text-align: center;
+    color: white;
+}
+#header-content h1{
+    font-size: 3rem;
+}
+#header-content p{
+    font-size: 1.6rem;
+}
+#palyers-info ol{
+    padding: 0;
+list-style: none;
+display: flex;
+gap: 3rem;
+justify-content: center;
+margin: 3rem auto;
+
+}
+#palyers-info article{
+background-color: rgb(255, 217, 224);
+text-align: center;
+padding: 2rem 5rem;
+border-radius: 10px;
+box-shadow: 3px 3px 5px 2px #00000033;
+
+}
+#palyers-info article button{
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 4px;
+    color: rgb(131, 26, 230);
+   
+}
+#palyers-info article button:hover{
+    background-color: rgb(131, 26, 230);
+    color: white;
+}
+
+#palyers-info article p{
+    font-weight: bold;
+    
+}
+.player-symbol{
+    font-size: 2.5rem;
+    margin: 1rem;
+    /* font-weight: bolder; */
+    /* color: rgb(131, 26, 230); */
+}
+#palyers-info article h2{
+    color: rgb(131, 26, 230);
+font-size: 1.7rem;
+}
+#start-game-btn{
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border-radius: 4px;
+    border-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+}
+#start-game-btn:hover{
+    background-color: rgb(158, 88, 224);
+}
+#start-game-btn-wrapper{
+    text-align: center;
+}
