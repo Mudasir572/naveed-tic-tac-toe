@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="/styles/overlays.css">
     <link rel="stylesheet" href="styles/game.css">
+    <script src="scripts/config.js" defer></script>
 </head>
 <body>
     <header>
@@ -37,19 +38,19 @@
         <div id="palyers-info">
             <ol>
                 <li>
-                    <article>
+                    <article id="player-1-data">
                         <p>Player 1</p>
                         <h2>Player Name</h2>
                         <p class="player-symbol">X</p>
-                            <button>Edit</button>
+                            <button id="player-1-edit-btn" data-playerid="1">Edit</button>
                     </article>
                 </li>
                 <li>
-                    <article>
+                    <article id="player-2-data">
                         <p>Player 2</p>
                         <h2>Player Name</h2>
                         <p class="player-symbol">O</p>
-                            <button>Edit</button>
+                            <button id="player-2-edit-btn" data-playerid="2">Edit</button>
                     </article>
                 </li>
                
@@ -65,8 +66,8 @@
     <div id="game-board">
         <p>Its your turn ...</p>
         <ol>
-            <li></li>
-            <li></li>
+            <li>X</li>
+            <li>O</li>
             <li></li>
             <li></li>
             <li></li>

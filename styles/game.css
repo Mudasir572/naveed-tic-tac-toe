@@ -42,4 +42,7 @@
   font-size: 4rem;
   color: white;
 }
+#game-board li:hover {
+    background-color:  rgb(131, 26, 230);
+}
 

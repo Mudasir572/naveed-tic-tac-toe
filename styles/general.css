@@ -28,6 +28,7 @@ margin: 3rem auto;
 }
 #palyers-info article{
 background-color: rgb(255, 217, 224);
+min-width: 170px;
 text-align: center;
 padding: 2rem 5rem;
 border-radius: 10px;
