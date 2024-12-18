@@ -8,13 +8,14 @@
     border-radius: 6px;
     box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.2);
     text-align: center;
-    /* display: none; */
+    display: none;
 }
 #game-board{
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 #game-board p{
     text-align: center;
@@ -29,8 +30,13 @@
     
     gap: 5px;
 }
+/* .disabled{
+    background-color: rgb(131, 26, 230);
+    cursor: none;
+} */
 #game-board li {
   background-color: rgb(242 186 242);
+  cursor: pointer;
   width: 7rem;
   height: 7rem;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
@@ -42,6 +48,7 @@
   font-size: 4rem;
   color: white;
 }
+
 #game-board li:hover {
     background-color:  rgb(131, 26, 230);
 }
